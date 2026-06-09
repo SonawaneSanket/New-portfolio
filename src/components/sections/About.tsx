@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import personalPicture from "../../assets/personal_picture.png";
+import profile from "../../assets/profile.png";
 import { Sparkles, Download, MessageSquare, Zap, Target, Heart } from "lucide-react";
 import SectionHeader from "../shared/SectionHeader";
 import { scrollTo } from "../../hooks/useLenis";
@@ -25,7 +25,7 @@ export default function About() {
           >
             <div className="shadow-card relative mx-auto aspect-square max-w-sm overflow-hidden rounded-2xl md:max-w-none">
               <img
-                src={personalPicture}
+                src={profile}
                 alt="Developer portrait"
                 className="h-full w-full object-cover"
               />
